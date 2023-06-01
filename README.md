@@ -1,6 +1,12 @@
 # SotAW-Improvement-TotK
 Improved Ancient Heros Aspect Armor
 
-I personally was completely unimpressed by what we were given for all our efforts of getting the shrines done. So, since you have to go everywhere to get it, I figured it should LET you go everywhere, unimpeded. It has, Speed Up 3, Heat Resist 3, Cold Resist 3, No Slip (The frog suit set bonus), and Stealth 3.
+I personally was completely unimpressed by what we were given for all our efforts of getting the shrines done. So, since you have to go everywhere to get it, I figured it should LET you go everywhere, unimpeded. It has, Speed Up 3, No Slip (The frog suit set bonus), Stealth 3, No Fall Damage, Zonaite Energy Heal and Reduction (because obviously), Decreased Wall Jump Stamina, Immunities to Heat/Fire Cold/Freeze and Electric/Lightning, Waterfall Climbing, Miasma Guard 3, Diving Mobility 3, and you can see enemy health bars. I've also changed it visually, I'll leave the picture here.
 
-I wanted to add Gloom Resistance, No Fall Damage, and all three immunities as well (Flame, Ice, and Lightning), but unfortunately I'm having a very hard time with increasing the Resource Table without getting an infinite load, and I'd need to make one for multiple versions, but I'm okay with that. If anyone can tell me what exactly I'm doing wrong with this process, I'd greatly appreciate it, but otherwise, I hope you enjoy.
+![Screenshot_20230601_022131](https://github.com/Melechtna/SotAW-Improvement-TotK/assets/81296467/31ca7749-d34d-42af-9e6e-fc3029988574)
+
+As you can see, I've removed the clown paint from the lips and made it look natural, swapped his eyes out for Raurus, and given him back his trademark blonde hair.
+
+So, if you wish you remove any of the visual modifications, simply remove them from romfs/TexToGo. The Head_Alb is the face paint, Hair_Alb is the hair, and the Eyeball_Alb is the eyes. If you need this compatible with other mods that have needed to extend the resource table, I.E. also have a romfs/System/Resource/ResourceSizeTable.Product.112.rsizetable.zs , make sure that you adjust it accordingly.
+
+Lastly, in theory at least, to make this work on 1.1.1 and below, all you should need to do is rename romfs/System/Resource/ResourceSizeTable.Product.112.rsizetable.zs to 111.rsizetable.zs etc. and it should just work. If not, I can see about back porting it, but only the resource table is version dependant. Conversely, if someone else would like to make the tables and add them, I'm more than happy to let them do so.
