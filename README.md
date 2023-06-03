@@ -11,7 +11,13 @@ So, if you wish you remove any of the visual modifications, simply remove them f
 
 Lastly, in theory at least, to make this work on 1.1.1 and below, all you should need to do is rename romfs/System/Resource/ResourceSizeTable.Product.112.rsizetable.zs to 111.rsizetable.zs etc. and it should just work. If not, I can see about back porting it, but only the resource table is version dependant. Conversely, if someone else would like to make the tables and add them, I'm more than happy to let them do so.
 
-# New Joke(r) Variant
+# Rauru Variant
+
+![Screenshot_20230603_081442](https://github.com/Melechtna/SotAW-Improvement-TotK/assets/81296467/30a8eef1-212b-4627-9ca7-c7dafc82006d)
+
+This one comes with a fully OP set bonus, attack, movement, resistances, everything except for the stuff that would equate to godmode.
+
+# Joke(r) Variant
 
 ![Screenshot_20230603_061843](https://github.com/Melechtna/SotAW-Improvement-TotK/assets/81296467/fd6603f0-859b-499e-a3c1-b2596db93da0)
 
